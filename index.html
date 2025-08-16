@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Janhavi Dhaygude — Designer & Developer. Portfolio showcasing UI/UX, web projects and creative work.">
+  <title>Janhavi Dhaygude — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { 
+      margin:0; 
+      font-family: 'Sora', sans-serif; 
+      background: #0c0728; 
+      color: #f5f5f5;
+    }
+    .hero { 
+      text-align:center; 
+      padding:2rem; 
+      background:linear-gradient(135deg, rgba(12,7,40,0.95), rgba(18,12,45,0.9)); 
+      color:white; 
+    }
+    .profile-pic { 
+      width:150px; 
+      height:150px; 
+      border-radius:50%; 
+      object-fit:cover; 
+      border:4px solid white; 
+      box-shadow:0 4px 20px rgba(0,0,0,0.5); 
+      display:block; 
+      margin:0 auto; 
+    }
+    h1 { font-family:'Montserrat',sans-serif; font-size:2rem; margin:1rem 0 0.5rem; }
+    .highlight { background:linear-gradient(90deg,#ff4e9b,#6a82fb); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    nav { display:flex; justify-content:center; gap:2rem; background: rgba(255,255,255,0.05); padding:1rem; position:sticky; top:0; z-index:10; }
+    nav a { text-decoration:none; font-weight:600; color:#ff4e9b; }
+    nav a:hover { color:#6a82fb; }
+    .section { 
+      padding:2rem; 
+      max-width:900px; 
+      margin:2rem auto; 
+      background: #1a1242; /* contrast color */
+      border-radius: 2rem; 
+      box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+    }
+    .section h2 { text-align:center; color:#ff4e9b; margin-bottom:1rem; }
+    .section h3 { color:#ff4e9b; }
+    .projects .project-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; }
+    .project-card { background:rgba(255,255,255,0.05); border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.6); text-align:center; transition:transform 0.2s; padding:1rem; border: 1px solid rgba(255,255,255,0.1); }
+    .project-card:hover { transform:translateY(-6px); }
+    .project-card img { 
+      width:180px; 
+      height:180px; 
+      object-fit:cover; 
+      border-radius:50%; 
+      margin: 0 auto; 
+      display: block;
+    }
+    .project-card h3 { margin:1rem 0 0.5rem; color:#ff4e9b; }
+    .project-card p { padding:0 1rem 1rem; color:#ddd; font-size:0.95rem; }
+    .project-card a { display:inline-block; margin-bottom:1rem; padding:0.5rem 1rem; background:linear-gradient(90deg, #ff4e9b 30%, #6a82fb 100%); color:white; text-decoration:none; border-radius:8px; font-weight:600; }
+    .contact-form { display:flex; flex-direction:column; gap:1rem; max-width:500px; margin:0 auto; }
+    .contact-form input, .contact-form textarea { padding:0.8rem; border:none; border-radius:8px; background:rgba(255,255,255,0.1); color:white; }
+    .contact-form button { padding:0.8rem; background:linear-gradient(90deg, #ff4e9b 30%, #6a82fb 100%); color:white; border:none; border-radius:8px; font-weight:600; cursor:pointer; }
+    .links { text-align:center; margin-top:1rem; }
+    .links a { margin:0 0.5rem; color:#6a82fb; text-decoration:none; font-weight:600; }
+    ul li { color:#ddd; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="images/Janhavi.jpg" alt="Janhavi Dhaygude" class="profile-pic">
+    <h1>Hey, I'm <span class="highlight">Janhavi Dhaygude</span> 👋</h1>
+    <p>Turning complex data into visuals that pop — with color, clarity, and pure Gen Z energy.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hi, I’m Janhavi — a recent graduate (2024) in Artificial Intelligence & Data Science from PES Modern College of Engineering. Right after graduation, I got an opportunity to work with Amazon as a CAP Associate on a contractual role, where I sharpened my analytical thinking and problem-solving skills in a fast-paced, customer-centric environment.</p>
+    <p>Currently, I’m actively seeking entry-level Data Analyst roles where I can apply and expand my skills in Python, SQL, Power BI, and Tableau. I enjoy turning data into meaningful insights that drive better decisions.</p>
+    <p>I would describe myself as calm, curious, and ambiverted — someone who thrives in both independent and collaborative spaces. My leadership journey began during my college days when I led my department as part of the NSS, organizing impactful initiatives and fostering strong team coordination.</p>
+    <p>Outside the data world, I express my creativity through digital art, and was proud to win 3rd prize in Dell Campassadors’ Digital Art Competition (India). I also enjoy singing, arts & crafts, reading, and adventurous activities that keep my curiosity alive and help me grow personally.</p>
+  </section>
+  
+  <section class="section"> 
+    <h3>Achievements</h3>
+    <ul>
+      <li><strong>NSS Head</strong> – Led the Artificial Intelligence & Data Science Department’s NSS unit, driving impactful initiatives (2023–24).</li>
+      <li><strong>NSS Co-Head</strong> – Coordinated events and projects for the AI&DS Department’s NSS unit (2022–23).</li>
+      <li><strong>Event Co-Head</strong> – Steered M-Pulse Infusion-X, the flagship technical fest of the PES Modern College of Engineering, Pune under AI&DS Department.</li>
+      <li><strong>Lead Designer</strong> – Directed a design team of 3–4 creatives, producing bold and engaging visuals for the CODE Club, AI&DS Department.</li>
+      <li><strong>Top 3 Winner (India)</strong> – Bagged 3rd place in Dell Campassador’s Digital Art Competition, ranking among the Top 5 in the country.</li>
+    </ul>
+    <h3>Hobbies</h3>
+    <ul>
+      <li>Digital art</li>
+      <li>Travelling</li>
+      <li>Adventure Sports</li>
+      <li>Drawing</li>
+      <li>Trying new things</li>
+      <li>Photography</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Sign Language Recognition System">
+        <h3>Sign Language Recognition System</h3>
+        <p>Helping the deaf community communicate better — with a little help from AI.</p>
+        <a href="project1.html">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="EV-Ready India Dashboard">
+        <h3>EV-Ready India Dashboard</h3>
+        <p>Interactive dashboard visualizing nationwide adoption of electric auto-rickshaws.</p>
+        <a href="project2.html">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project3.png" alt="Cyclistic Bike-Share Case Study">
+        <h3>Cyclistic Bike-Share Case Study</h3>
+        <p>Transforming casual riders into loyal members using R, Excel & Tableau.</p>
+        <a href="project3.html">View Project</a>
+      </div>
+    </div>
+  </section>
+  
+  <div class="links">
+    <a href="https://github.com/janhaviii12" target="_blank">GitHub</a>
+    <a href="https://docs.google.com/document/d/1qV5-VU588508M3lsI1Rp7Zv2m860c6DqOAZZ90y0gSg/edit?usp=sharing" target="_blank">Resume</a>
+    <a href="https://www.linkedin.com/in/janhavi-dhaygude-551669218/" target="_blank">LinkedIn</a>
+  </div>
+
+  <section id="contact" class="fade-section" style="padding: 2rem; text-align: center; background: #0c0728; color: white; opacity: 0; transform: translateY(40px); transition: all 0.8s ease-out;">
+    <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 700; margin-bottom: 1rem;">Contact Me</h2>
+    <p style="max-width: 500px; margin: auto; font-family: 'Sora', sans-serif; font-weight: 300; font-size: 0.95rem;">
+      Have a question or project in mind? Send me a message!
+    </p>
+  
+    <form class="contact-form" action="https://formspree.io/f/xvgqyrnj" method="POST" style="max-width: 500px; margin: 2rem auto 0; text-align: left;">
+      <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border-radius: 8px; border: none; background: rgba(255,255,255,0.1); color: white; font-size: 0.9rem;">
+      
+      <input type="email" name="_replyto" placeholder="Your Email" required style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border-radius: 8px; border: none; background: rgba(255,255,255,0.1); color: white; font-size: 0.9rem;">
+      
+      <textarea name="message" placeholder="Your Message" required style="width: 100%; padding: 0.75rem; margin-bottom: 1rem; border-radius: 8px; border: none; background: rgba(255,255,255,0.1); color: white; font-size: 0.9rem; height: 150px;"></textarea>
+      
+      <button type="submit" style="width: 100%; padding: 0.75rem; background: linear-gradient(90deg, #ff4e9b 30%, #6a82fb 100%); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s;">
+        Send Message
+      </button>
+    </form>
+  </section>
+  
+  <!-- Floating success message box -->
+  <div id="success-box" style="position: fixed; bottom: -80px; left: 50%; transform: translateX(-50%); background: #4caf50; color: white; padding: 1rem 2rem; border-radius: 10px; font-family: 'Sora', sans-serif; font-weight: 500; box-shadow: 0px 4px 10px rgba(0,0,0,0.3); transition: bottom 0.5s ease;">
+    ✅ Message sent successfully!
+  </div>
+  
+  <script>
+  // Fade-in animation for contact section
+  const fadeObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = "translateY(0)";
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  
+  document.querySelectorAll('.fade-section').forEach(section => {
+    fadeObserver.observe(section);
+  });
+  
+  // Form submission handling
+  const successBox = document.getElementById('success-box');
+  
+  document.querySelector('.contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var form = event.target;
+    var data = new FormData(form);
+  
+    fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        form.reset();
+        // Show success box
+        successBox.style.bottom = "20px";
+        setTimeout(() => {
+          successBox.style.bottom = "-80px";
+        }, 3000);
+      } else {
+        alert('❌ Oops! Something went wrong. Please try again.');
+      }
+    }).catch(error => {
+      alert('❌ Oops! There was a problem sending your message.');
+    });
+  });
+  </script>
+  
+
+  
+</body>
+</html>

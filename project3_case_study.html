@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyclistic Bike-Share – Full Case Study</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background: #0c0728;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .back-button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: linear-gradient(90deg, #ff4e9b 30%, #6a82fb 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 0.8rem;
+      margin-bottom: 2rem;
+      transition: transform 0.2s;
+    }
+    .back-button:hover {
+      transform: scale(1.05);
+    }
+    h1, h2 {
+      color: #ff4e9b;
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="project3.html" class="back-button">← Back to Project</a>
+    <h1>Full Case Study: A Data-Driven Strategy for Cyclistic Bike-Share</h1>
+
+    <h2>Introduction</h2>
+    <p>This full case study dives deeper into the methodology, data processing, statistical analysis, and visualization that led to actionable recommendations for Cyclistic’s marketing team.</p>
+
+    <h2>Objective</h2>
+    <p>The main goal was to understand how casual riders and annual members use Cyclistic bikes differently, and identify strategies to convert casual riders into loyal members.</p>
+
+    <h2>Data Collection</h2>
+    <p>We used real Divvy datasets from Q1 2019 and Q1 2020, containing trip-level data with ride duration, start/end stations, and rider type.</p>
+
+    <h2>Data Cleaning Process</h2>
+    <ul>
+      <li>Removed duplicate records</li>
+      <li>Filtered out rides with negative or unrealistic durations</li>
+      <li>Standardized column formats and names</li>
+      <li>Verified data integrity across multiple sources</li>
+    </ul>
+
+    <h2>Analysis</h2>
+    <p>Using R, we calculated descriptive statistics, plotted usage patterns, and performed statistical tests to validate observed differences.</p>
+
+    <h2>Key Findings</h2>
+    <ul>
+      <li>Casual riders take longer trips, especially on weekends</li>
+      <li>Annual members ride more frequently during weekdays</li>
+      <li>Peak usage times differ significantly between groups</li>
+    </ul>
+
+    <h2>Recommendations</h2>
+    <ul>
+      <li>Offer weekend promotions to casual riders</li>
+      <li>Create trial memberships targeting weekend users</li>
+      <li>Launch behavior-based email marketing campaigns</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>This analysis provided Cyclistic’s marketing team with clear, data-backed strategies to increase membership conversions, highlighting the value of integrating analytics into business decision-making.</p>
+  </div>
+</body>
+</html>

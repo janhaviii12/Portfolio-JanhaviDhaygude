@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Language Recognition System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sora', sans-serif;
+      background: #0c0728;
+      color: #f5f5f5;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(12,7,40,0.95), rgba(18,12,45,0.9));
+      position: relative;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      color: #ff4e9b;
+      margin-top: 1rem;
+    }
+    .project-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: linear-gradient(90deg, #ff4e9b 30%, #6a82fb 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: transform 0.2s;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+    .back-btn {
+      position: absolute;
+      left: 1.5rem;
+      top: 1.5rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #1a1242;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+    }
+    h2 {
+      color: #ff4e9b;
+      margin-bottom: 0.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+      color: #ddd;
+    }
+    p {
+      color: #ddd;
+      line-height: 1.6;
+    }
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="btn back-btn">← Back</a>
+    <img src="images/project1.png" alt="Sign Language Recognition System" class="project-img">
+    <h1>Sign Language Recognition System</h1>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Overview</h2>
+      <p>
+        The Sign Language Recognition System is an AI-powered tool designed to interpret hand gestures 
+        and convert them into text or speech in real time. This project aims to bridge the communication 
+        gap for the hearing-impaired community.
+      </p>
+
+      <h2>Technologies Used</h2>
+      <ul>
+        <li>Python</li>
+        <li>OpenCV</li>
+        <li>TensorFlow/Keras</li>
+        <li>NumPy</li>
+      </ul>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li>Real-time gesture detection</li>
+        <li>High accuracy using deep learning</li>
+        <li>Supports multiple sign languages</li>
+        <li>User-friendly interface</li>
+      </ul>
+
+      <h2>Challenges</h2>
+      <p>
+        Some challenges faced during development included acquiring diverse training datasets 
+        and optimizing the model for real-time performance.
+      </p>
+
+      <h2>Results</h2>
+      <p>
+        Achieved over 95% accuracy on test data and real-time processing speed suitable for live translation.
+      </p>
+
+      <div class="center">
+        <a href="https://www.notion.so/SignWise-Case-Study-866511f865dc4d2fbca5b142c553b166" target="_blank" class="btn">📄 Read Full Case Study</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
