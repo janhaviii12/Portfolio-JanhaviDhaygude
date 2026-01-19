@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Operations Analytics</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sora', sans-serif;
+      background: #0c0728;
+      color: #f5f5f5;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(12,7,40,0.95), rgba(18,12,45,0.9));
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      color: #ff4e9b;
+      margin-top: 1rem;
+    }
+
+    .project-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: linear-gradient(90deg, #ff4e9b 30%, #6a82fb 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    .back-btn {
+      position: absolute;
+      left: 1.5rem;
+      top: 1.5rem;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #1a1242;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+    }
+
+    h2 {
+      color: #ff4e9b;
+      margin-bottom: 0.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.6rem;
+      color: #ddd;
+    }
+
+    p {
+      color: #ddd;
+      line-height: 1.7;
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html" class="btn back-btn">← Back</a>
+    <img src="images/project5.png" alt="Credit Operations Analytics" class="project-img">
+    <h1>Credit Operations Analytics</h1>
+  </header>
+
+  <main>
+
+    <!-- Overview -->
+    <section class="section">
+      <h2>Overview</h2>
+      <p>
+        This project simulates a real-world <strong>Credit Operations Analytics system</strong> designed to support
+        fintech lending teams in identifying early delinquency risk, improving data reliability,
+        and reducing manual operational effort.
+      </p>
+      <p>
+        Using <strong>Python, PostgreSQL, and Power BI</strong>, the project focuses on credit risk monitoring,
+        repayment behavior analysis, and SQL-driven prioritization logic—moving beyond static dashboards
+        to production-aligned Credit Ops analytics.
+      </p>
+    </section>
+
+    <!-- Business Problem -->
+    <section class="section">
+      <h2>Business Problem</h2>
+      <ul>
+        <li>Poor data quality across customer, loan, and repayment systems</li>
+        <li>Late identification of high-risk borrowers after repayment failures</li>
+        <li>Manual, non-scalable Credit Ops workflows</li>
+        <li>Lack of clear, interpretable risk metrics for Ops prioritization</li>
+      </ul>
+      <p>
+        These challenges lead to reactive decision-making, increased operational cost,
+        and higher credit losses.
+      </p>
+    </section>
+
+    <!-- Objective -->
+    <section class="section">
+      <h2>Project Objective</h2>
+      <p>
+        To improve credit operations decision-making by addressing data quality issues,
+        enabling early delinquency detection, and reducing manual operational effort
+        through <strong>Python- and SQL-driven analysis</strong>.
+      </p>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section">
+      <h2>Technologies Used</h2>
+      <ul>
+        <li>Programming: Python (Pandas, Date Handling, Validation Logic)</li>
+        <li>Database: PostgreSQL</li>
+        <li>Visualization: Power BI (DAX, KPI Cards, Risk Dashboards)</li>
+        <li>Skills: Credit Risk Analytics, Data Cleaning, KPI Engineering, SQL Optimization</li>
+      </ul>
+    </section>
+
+    <!-- Dataset -->
+    <section class="section">
+      <h2>Dataset Structure</h2>
+      <ul>
+        <li><strong>Customer Table:</strong> Credit profile and borrower segmentation</li>
+        <li><strong>Loan Table:</strong> Loan exposure and status tracking</li>
+        <li><strong>Payment Table:</strong> Repayment behavior and delinquency detection</li>
+        <li><strong>Ops Action Table:</strong> Simulated Credit Ops interventions (SMS, calls, escalations)</li>
+      </ul>
+    </section>
+
+    <!-- Core Analytics -->
+    <section class="section">
+      <h2>Core Analytics & KPIs</h2>
+      <ul>
+        <li>Days Past Due (DPD) calculation and industry-standard DPD buckets</li>
+        <li>Delinquency Rate, Default Rate, On-Time Payment Rate</li>
+        <li>Repeat late payment detection and payment delay trends</li>
+        <li>Rule-based Early Warning Signals (EWS)</li>
+        <li>Manual vs automated Ops handling effectiveness</li>
+      </ul>
+    </section>
+
+    <!-- SQL Architecture -->
+    <section class="section">
+      <h2>SQL Architecture</h2>
+      <p>
+        The project follows a modular SQL architecture with dedicated scripts for schema creation,
+        risk metrics, roll-rate analysis, Ops effectiveness, and portfolio summaries.
+      </p>
+      <ul>
+        <li>DPD Engineering</li>
+        <li>Roll Rate Analysis</li>
+        <li>Early Warning Signal Generation</li>
+        <li>Ops Prioritization Logic</li>
+      </ul>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="section">
+      <h2>Power BI Dashboard</h2>
+      <ul>
+        <li><strong>Portfolio Overview:</strong> Exposure, risk distribution, loan status</li>
+        <li><strong>Delinquency Trends:</strong> Monthly DPD and roll rates</li>
+        <li><strong>Early Warning System:</strong> High-risk loan identification</li>
+        <li><strong>Ops Effectiveness:</strong> Collection performance by action type</li>
+      </ul>
+    </section>
+
+    <!-- Impact -->
+    <section class="section">
+      <h2>Impact</h2>
+      <ul>
+        <li>Enabled early identification of high-risk loans before default</li>
+        <li>Reduced dependency on manual Ops decision-making</li>
+        <li>Created a scalable, automation-ready Credit Ops analytics framework</li>
+        <li>Demonstrated real-world application of SQL and Python in fintech risk analytics</li>
+      </ul>
+    </section>
+
+    <!-- CTA -->
+    <div class="center">
+      <a href="https://github.com/janhaviii12/Finantial-Data-Analysis" target="_blank" class="btn">View GitHub Repository</a>
+    </div>
+
+  </main>
+
+</body>
+</html>
